@@ -14,7 +14,7 @@ class ChatBotController extends Controller
             $client = new Client();
             $response = $client->post('https://api.openai.com/v1/chat/completions', [
                 'headers' => [
-                    'Authorization' => 'Bearer ' . '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',
+                    'Authorization' => 'Bearer ' . 'your_api_key',
                     'Content-Type' => 'application/json',
                 ],
                 'json' => [
